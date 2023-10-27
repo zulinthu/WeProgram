@@ -1,0 +1,6115 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qglobal.h"
+                },
+                "region": {
+                  "startLine": 660,
+                  "startColumn": 29,
+                  "endLine": 660,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qRound64@@YA_JM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qglobal.h"
+                },
+                "region": {
+                  "startLine": 660,
+                  "startColumn": 48,
+                  "endLine": 660,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qRound64@@YA_JM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qglobal.h"
+                },
+                "region": {
+                  "startLine": 660,
+                  "startColumn": 48,
+                  "endLine": 660,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qRound64@@YA_JM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qglobal.h"
+                },
+                "region": {
+                  "startLine": 660,
+                  "startColumn": 88,
+                  "endLine": 660,
+                  "endColumn": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qRound64@@YA_JM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QSysInfo::MacVersion”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qsysinfo.h"
+                },
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 114,
+                  "endLine": 226,
+                  "endColumn": 114
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::KeyboardModifier”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 5,
+                  "endLine": 110,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4KeyboardModifier@Qt@@@@W4KeyboardModifier@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::MouseButton”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 5,
+                  "endLine": 169,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4MouseButton@Qt@@@@W4MouseButton@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::Orientation”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 5,
+                  "endLine": 177,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4Orientation@Qt@@@@W4Orientation@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::SplitBehaviorFlags”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 5,
+                  "endLine": 204,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4SplitBehaviorFlags@Qt@@@@W4SplitBehaviorFlags@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::AlignmentFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 5,
+                  "endLine": 240,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4AlignmentFlag@Qt@@@@W4AlignmentFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::WindowType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 324,
+                  "startColumn": 5,
+                  "endLine": 324,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4WindowType@Qt@@@@W4WindowType@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::WindowState”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 335,
+                  "startColumn": 5,
+                  "endLine": 335,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4WindowState@Qt@@@@W4WindowState@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ScreenOrientation”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 355,
+                  "startColumn": 5,
+                  "endLine": 355,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4ScreenOrientation@Qt@@@@W4ScreenOrientation@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ImageConversionFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 596,
+                  "startColumn": 5,
+                  "endLine": 596,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4ImageConversionFlag@Qt@@@@W4ImageConversionFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::DockWidgetArea”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1255,
+                  "startColumn": 5,
+                  "endLine": 1255,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4DockWidgetArea@Qt@@@@W4DockWidgetArea@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ToolBarArea”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1273,
+                  "startColumn": 5,
+                  "endLine": 1273,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4ToolBarArea@Qt@@@@W4ToolBarArea@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::Edge”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1334,
+                  "startColumn": 5,
+                  "endLine": 1334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4Edge@Qt@@@@W4Edge@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::InputMethodQuery”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1439,
+                  "startColumn": 5,
+                  "endLine": 1439,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4InputMethodQuery@Qt@@@@W4InputMethodQuery@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::InputMethodHint”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1474,
+                  "startColumn": 5,
+                  "endLine": 1474,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4InputMethodHint@Qt@@@@W4InputMethodHint@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::DropAction”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1525,
+                  "startColumn": 5,
+                  "endLine": 1525,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4DropAction@Qt@@@@W4DropAction@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ItemFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1582,
+                  "startColumn": 5,
+                  "endLine": 1582,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4ItemFlag@Qt@@@@W4ItemFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::MatchFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1600,
+                  "startColumn": 5,
+                  "endLine": 1600,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4MatchFlag@Qt@@@@W4MatchFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TextInteractionFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1625,
+                  "startColumn": 5,
+                  "endLine": 1625,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4TextInteractionFlag@Qt@@@@W4TextInteractionFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TouchPointState”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1677,
+                  "startColumn": 5,
+                  "endLine": 1677,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4TouchPointState@Qt@@@@W4TouchPointState@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::GestureFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1709,
+                  "startColumn": 5,
+                  "endLine": 1709,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4GestureFlag@Qt@@@@W4GestureFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::MouseEventFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1764,
+                  "startColumn": 5,
+                  "endLine": 1764,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UQt@@YA?AV?$QFlags@W4MouseEventFlag@Qt@@@@W4MouseEventFlag@0@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ScrollBarPolicy”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1785,
+                  "startColumn": 5,
+                  "endLine": 1785,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ScrollBarPolicy@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::FocusPolicy”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1786,
+                  "startColumn": 5,
+                  "endLine": 1786,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4FocusPolicy@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ContextMenuPolicy”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1787,
+                  "startColumn": 5,
+                  "endLine": 1787,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ContextMenuPolicy@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ArrowType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1788,
+                  "startColumn": 5,
+                  "endLine": 1788,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ArrowType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ToolButtonStyle”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1789,
+                  "startColumn": 5,
+                  "endLine": 1789,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ToolButtonStyle@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::PenStyle”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1790,
+                  "startColumn": 5,
+                  "endLine": 1790,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4PenStyle@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::PenCapStyle”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1791,
+                  "startColumn": 5,
+                  "endLine": 1791,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4PenCapStyle@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::PenJoinStyle”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1792,
+                  "startColumn": 5,
+                  "endLine": 1792,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4PenJoinStyle@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::BrushStyle”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1793,
+                  "startColumn": 5,
+                  "endLine": 1793,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4BrushStyle@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::FillRule”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1794,
+                  "startColumn": 5,
+                  "endLine": 1794,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4FillRule@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::MaskMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1795,
+                  "startColumn": 5,
+                  "endLine": 1795,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4MaskMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::BGMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1796,
+                  "startColumn": 5,
+                  "endLine": 1796,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4BGMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ClipOperation”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1797,
+                  "startColumn": 5,
+                  "endLine": 1797,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ClipOperation@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::SizeMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1798,
+                  "startColumn": 5,
+                  "endLine": 1798,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4SizeMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::Axis”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1799,
+                  "startColumn": 5,
+                  "endLine": 1799,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4Axis@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::Corner”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1800,
+                  "startColumn": 5,
+                  "endLine": 1800,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4Corner@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::LayoutDirection”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1802,
+                  "startColumn": 5,
+                  "endLine": 1802,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4LayoutDirection@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::SizeHint”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1803,
+                  "startColumn": 5,
+                  "endLine": 1803,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4SizeHint@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TextFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1807,
+                  "startColumn": 5,
+                  "endLine": 1807,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TextFlag@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TextFormat”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1816,
+                  "startColumn": 5,
+                  "endLine": 1816,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TextFormat@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TextElideMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1817,
+                  "startColumn": 5,
+                  "endLine": 1817,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TextElideMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::DateFormat”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1818,
+                  "startColumn": 5,
+                  "endLine": 1818,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4DateFormat@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TimeSpec”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1819,
+                  "startColumn": 5,
+                  "endLine": 1819,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TimeSpec@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::DayOfWeek”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1820,
+                  "startColumn": 5,
+                  "endLine": 1820,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4DayOfWeek@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::CursorShape”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1821,
+                  "startColumn": 5,
+                  "endLine": 1821,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4CursorShape@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::GlobalColor”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1822,
+                  "startColumn": 5,
+                  "endLine": 1822,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4GlobalColor@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::AspectRatioMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1823,
+                  "startColumn": 5,
+                  "endLine": 1823,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4AspectRatioMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TransformationMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1824,
+                  "startColumn": 5,
+                  "endLine": 1824,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TransformationMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::Key”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1826,
+                  "startColumn": 5,
+                  "endLine": 1826,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4Key@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ShortcutContext”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1827,
+                  "startColumn": 5,
+                  "endLine": 1827,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ShortcutContext@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ItemSelectionMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1830,
+                  "startColumn": 5,
+                  "endLine": 1830,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ItemSelectionMode@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ItemSelectionOperation”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1831,
+                  "startColumn": 5,
+                  "endLine": 1831,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ItemSelectionOperation@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::CheckState”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1833,
+                  "startColumn": 5,
+                  "endLine": 1833,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4CheckState@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ItemDataRole”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1834,
+                  "startColumn": 5,
+                  "endLine": 1834,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ItemDataRole@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::SortOrder”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1835,
+                  "startColumn": 5,
+                  "endLine": 1835,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4SortOrder@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::CaseSensitivity”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1836,
+                  "startColumn": 5,
+                  "endLine": 1836,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4CaseSensitivity@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::WindowModality”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1842,
+                  "startColumn": 5,
+                  "endLine": 1842,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4WindowModality@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::WidgetAttribute”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1843,
+                  "startColumn": 5,
+                  "endLine": 1843,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4WidgetAttribute@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ApplicationAttribute”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1844,
+                  "startColumn": 5,
+                  "endLine": 1844,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ApplicationAttribute@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::FocusReason”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1847,
+                  "startColumn": 5,
+                  "endLine": 1847,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4FocusReason@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::EnterKeyType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1851,
+                  "startColumn": 5,
+                  "endLine": 1851,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4EnterKeyType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ConnectionType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1856,
+                  "startColumn": 5,
+                  "endLine": 1856,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ConnectionType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ApplicationState”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1857,
+                  "startColumn": 5,
+                  "endLine": 1857,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ApplicationState@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::GestureState”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1859,
+                  "startColumn": 5,
+                  "endLine": 1859,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4GestureState@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::GestureType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1860,
+                  "startColumn": 5,
+                  "endLine": 1860,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4GestureType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::NativeGestureType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1861,
+                  "startColumn": 5,
+                  "endLine": 1861,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4NativeGestureType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::CursorMoveStyle”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1863,
+                  "startColumn": 5,
+                  "endLine": 1863,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4CursorMoveStyle@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TimerType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1864,
+                  "startColumn": 5,
+                  "endLine": 1864,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TimerType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ScrollPhase”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1865,
+                  "startColumn": 5,
+                  "endLine": 1865,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ScrollPhase@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::MouseEventSource”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1866,
+                  "startColumn": 5,
+                  "endLine": 1866,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4MouseEventSource@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::ChecksumType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1868,
+                  "startColumn": 5,
+                  "endLine": 1868,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4ChecksumType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“Qt::TabFocusBehavior”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+                },
+                "region": {
+                  "startLine": 1870,
+                  "startColumn": 5,
+                  "endLine": 1870,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@Qt@@YAPBUQMetaObject@@W4TabFocusBehavior@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::SpecialCharacter”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 5,
+                  "endLine": 101,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QChar@@QAE@W4SpecialCharacter@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::Category”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 451,
+                  "startColumn": 63,
+                  "endLine": 451,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?category@QChar@@QBE?AW4Category@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::Direction”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 452,
+                  "startColumn": 65,
+                  "endLine": 452,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?direction@QChar@@QBE?AW4Direction@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::JoiningType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 453,
+                  "startColumn": 69,
+                  "endLine": 453,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?joiningType@QChar@@QBE?AW4JoiningType@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::Joining”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 460,
+                  "startColumn": 36,
+                  "endLine": 460,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?joining@QChar@@QBE?AW4Joining@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::Decomposition”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 474,
+                  "startColumn": 76,
+                  "endLine": 474,
+                  "endColumn": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?decompositionTag@QChar@@QBE?AW4Decomposition@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::Script”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 482,
+                  "startColumn": 59,
+                  "endLine": 482,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?script@QChar@@QBE?AW4Script@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QChar::UnicodeVersion”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+                },
+                "region": {
+                  "startLine": 484,
+                  "startColumn": 75,
+                  "endLine": 484,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?unicodeVersion@QChar@@QBE?AW4UnicodeVersion@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QArrayData::AllocationOption”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qarraydata.h"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 1,
+                  "endLine": 126,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4AllocationOption@QArrayData@@@@W4AllocationOption@QArrayData@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QByteArray::Base64Option”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qbytearray.h"
+                },
+                "region": {
+                  "startLine": 492,
+                  "startColumn": 1,
+                  "endLine": 492,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4Base64Option@QByteArray@@@@W4Base64Option@QByteArray@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QString::SectionFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qstring.h"
+                },
+                "region": {
+                  "startLine": 1595,
+                  "startColumn": 1,
+                  "endLine": 1595,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4SectionFlag@QString@@@@W4SectionFlag@QString@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtPrivate::ArgBase::Tag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qstring.h"
+                },
+                "region": {
+                  "startLine": 2095,
+                  "startColumn": 80,
+                  "endLine": 2095,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QStringViewArg@QtPrivate@@QAE@VQStringView@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QMetaType::ExtensionFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 734,
+                  "startColumn": 17,
+                  "endLine": 734,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?isExtended@QMetaType@@ABE_NW4ExtensionFlag@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QMetaType::TypeFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 786,
+                  "startColumn": 1,
+                  "endLine": 786,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4TypeFlag@QMetaType@@@@W4TypeFlag@QMetaType@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtMetaTypePrivate::IteratorCapability”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 1101,
+                  "startColumn": 48,
+                  "endLine": 1101,
+                  "endColumn": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?iteratorCapabilities@QSequentialIterableImpl@QtMetaTypePrivate@@QAE?AW4IteratorCapability@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QColor::Spec”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 16,
+                  "endLine": 71,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QColor::CT::argb。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 9,
+                  "endLine": 265,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CT@QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QColor::CT::argb"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QColor::CT::ahsv。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 9,
+                  "endLine": 265,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CT@QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QColor::CT::ahsv"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QColor::CT::acmyk。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 9,
+                  "endLine": 265,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CT@QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QColor::CT::acmyk"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QColor::CT::ahsl。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 9,
+                  "endLine": 265,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CT@QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QColor::CT::ahsl"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QColor::CT::array。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 9,
+                  "endLine": 265,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CT@QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QColor::CT::array"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QColor::CT::argbExtended。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 9,
+                  "endLine": 265,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CT@QColor@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QColor::CT::argbExtended"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QIODevice::OpenModeFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qiodevice.h"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 1,
+                  "endLine": 185,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4OpenModeFlag@QIODevice@@@@W4OpenModeFlag@QIODevice@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QDataStream::Status”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qdatastream.h"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 68,
+                  "endLine": 227,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0StreamStateSaver@QtPrivate@@QAE@PAVQDataStream@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QDataStream::ByteOrder”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qdatastream.h"
+                },
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 3,
+                  "endLine": 372,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?byteOrder@QDataStream@@QBE?AW4ByteOrder@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_dy。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 5,
+                  "endLine": 60,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_dy"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_dx。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 5,
+                  "endLine": 60,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_dx"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m22。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 5,
+                  "endLine": 60,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m22"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m12。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 5,
+                  "endLine": 60,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m12"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m21。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 5,
+                  "endLine": 60,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m21"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m11。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 5,
+                  "endLine": 60,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m11"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_dy。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@$$QAV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_dy"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_dx。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@$$QAV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_dx"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m22。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@$$QAV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m22"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m12。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@$$QAV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m12"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m21。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@$$QAV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m21"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QMatrix::_m11。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QMatrix@@QAE@$$QAV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QMatrix::_m11"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QTransform::TransformationType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qtransform.h"
+                },
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 12,
+                  "endLine": 219,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?inline_type@QTransform@@ABE?AW4TransformationType@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::Field”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 35,
+                  "endLine": 98,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?get@QPixelFormat@@ABEEW4Field@1@W4FieldWidth@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::FieldWidth”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 35,
+                  "endLine": 98,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?get@QPixelFormat@@ABEEW4Field@1@W4FieldWidth@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::ColorModel”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 71,
+                  "endLine": 178,
+                  "endColumn": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?colorModel@QPixelFormat@@QBE?AW4ColorModel@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::AlphaUsage”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 70,
+                  "endLine": 209,
+                  "endColumn": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?alphaUsage@QPixelFormat@@QBE?AW4AlphaUsage@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::AlphaPosition”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 76,
+                  "endLine": 210,
+                  "endColumn": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?alphaPosition@QPixelFormat@@QBE?AW4AlphaPosition@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::AlphaPremultiplied”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 81,
+                  "endLine": 211,
+                  "endColumn": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?premultiplied@QPixelFormat@@QBE?AW4AlphaPremultiplied@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::TypeInterpretation”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 86,
+                  "endLine": 212,
+                  "endColumn": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?typeInterpretation@QPixelFormat@@QBE?AW4TypeInterpretation@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::ByteOrder”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 68,
+                  "endLine": 213,
+                  "endColumn": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?byteOrder@QPixelFormat@@QBE?AW4ByteOrder@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPixelFormat::YUVLayout”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+                },
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 68,
+                  "endLine": 215,
+                  "endColumn": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?yuvLayout@QPixelFormat@@QBE?AW4YUVLayout@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QImage::Format”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qimage.h"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 5,
+                  "endLine": 139,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Format@QImage@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 QtSharedPointer::ExternalRefCountData::destroyer。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qsharedpointer_impl.h"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 9,
+                  "endLine": 146,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExternalRefCountData@QtSharedPointer@@QAE@W4Initialization@Qt@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "QtSharedPointer::ExternalRefCountData::destroyer"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QGradient::Type”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qbrush.h"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 5,
+                  "endLine": 188,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Type@QGradient@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QGradient::Spread”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qbrush.h"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 5,
+                  "endLine": 195,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Spread@QGradient@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QGradient::CoordinateMode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qbrush.h"
+                },
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 5,
+                  "endLine": 203,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4CoordinateMode@QGradient@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QGradient::Preset”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qbrush.h"
+                },
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 5,
+                  "endLine": 382,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Preset@QGradient@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPalette::ColorGroup”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpalette.h"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 5,
+                  "endLine": 89,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4ColorGroup@QPalette@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QPalette::ColorRole”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpalette.h"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 5,
+                  "endLine": 104,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4ColorRole@QPalette@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::StyleHint”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 5,
+                  "endLine": 71,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4StyleHint@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::StyleStrategy”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 5,
+                  "endLine": 91,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4StyleStrategy@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::HintingPreference”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 5,
+                  "endLine": 99,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4HintingPreference@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::Weight”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 5,
+                  "endLine": 113,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Weight@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::Style”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 5,
+                  "endLine": 120,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Style@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::Stretch”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 5,
+                  "endLine": 134,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Stretch@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::Capitalization”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 5,
+                  "endLine": 143,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Capitalization@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::SpacingType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 5,
+                  "endLine": 149,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4SpacingType@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFont::ResolveProperties”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 5,
+                  "endLine": 173,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4ResolveProperties@QFont@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QSizePolicy::Policy”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qsizepolicy.h"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 5,
+                  "endLine": 91,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Policy@QSizePolicy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QSizePolicy::ControlType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qsizepolicy.h"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 5,
+                  "endLine": 116,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0QSizePolicy@@QAE@W4Policy@0@0W4ControlType@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QKeySequence::StandardKey”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qkeysequence.h"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 6,
+                  "endLine": 149,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4StandardKey@QKeySequence@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QWidget::RenderFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qwidget.h"
+                },
+                "region": {
+                  "startLine": 750,
+                  "startColumn": 1,
+                  "endLine": 750,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4RenderFlag@QWidget@@@@W4RenderFlag@QWidget@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QMapNodeBase::Color”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmap.h"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 27,
+                  "endLine": 93,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?color@QMapNodeBase@@QBE?AW4Color@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QEvent::Type”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qcoreevent.h"
+                },
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 5,
+                  "endLine": 295,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Type@QEvent@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QEventLoop::ProcessEventsFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qeventloop.h"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 1,
+                  "endLine": 85,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@W4ProcessEventsFlag@QEventLoop@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QInputMethod::Action”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qinputmethod.h"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 5,
+                  "endLine": 87,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Action@QInputMethod@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QLocale::Language”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qlocale.h"
+                },
+                "region": {
+                  "startLine": 949,
+                  "startColumn": 5,
+                  "endLine": 949,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Language@QLocale@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QLocale::Country”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qlocale.h"
+                },
+                "region": {
+                  "startLine": 950,
+                  "startColumn": 5,
+                  "endLine": 950,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Country@QLocale@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QLocale::Script”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qlocale.h"
+                },
+                "region": {
+                  "startLine": 951,
+                  "startColumn": 5,
+                  "endLine": 951,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Script@QLocale@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QLocale::MeasurementSystem”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qlocale.h"
+                },
+                "region": {
+                  "startLine": 959,
+                  "startColumn": 5,
+                  "endLine": 959,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4MeasurementSystem@QLocale@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QLocale::NumberOption”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qlocale.h"
+                },
+                "region": {
+                  "startLine": 1194,
+                  "startColumn": 1,
+                  "endLine": 1194,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4NumberOption@QLocale@@@@W4NumberOption@QLocale@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QIcon::Mode”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qicon.h"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 20,
+                  "endLine": 79,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?pixmap@QIcon@@QBE?AVQPixmap@@HHW4Mode@1@W4State@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QIcon::State”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qicon.h"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 20,
+                  "endLine": 79,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?pixmap@QIcon@@QBE?AVQPixmap@@HHW4Mode@1@W4State@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QTabWidget::TabPosition”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qtabwidget.h"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 5,
+                  "endLine": 111,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4TabPosition@QTabWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QTabWidget::TabShape”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qtabwidget.h"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 5,
+                  "endLine": 122,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4TabShape@QTabWidget@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QMainWindow::DockOption”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qmainwindow.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 5,
+                  "endLine": 90,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4DockOption@QMainWindow@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QAction::MenuRole”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qaction.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 5,
+                  "endLine": 90,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4MenuRole@QAction@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QAction::Priority”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qaction.h"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 5,
+                  "endLine": 94,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Priority@QAction@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QLayout::SizeConstraint”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qlayout.h"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 5,
+                  "endLine": 80,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4SizeConstraint@QLayout@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFrame::Shape”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qframe.h"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 5,
+                  "endLine": 83,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Shape@QFrame@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QFrame::Shadow”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qframe.h"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 5,
+                  "endLine": 89,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?qt_getEnumMetaObject@@YAPBUQMetaObject@@W4Shadow@QFrame@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QTextStream::NumberFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qtextstream.h"
+                },
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 1,
+                  "endLine": 202,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??U@YA?AV?$QFlags@W4NumberFlag@QTextStream@@@@W4NumberFlag@QTextStream@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtMsgType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qdebug.h"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 61,
+                  "endLine": 73,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Stream@QDebug@@QAE@PAVQIODevice@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QDebug::Stream::FormatFlag”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qdebug.h"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 14,
+                  "endLine": 92,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?testFlag@Stream@QDebug@@QBE_NW4FormatFlag@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QPair<QVariant,QVariant> > 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@U?$QPair@VQVariant@@V1@@@@QtPrivate@@SA?AU?$QPair@VQVariant@@V1@@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QMap<QString,QVariant> > 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@V?$QMap@VQString@@VQVariant@@@@@QtPrivate@@SA?AV?$QMap@VQString@@VQVariant@@@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QHash<QString,QVariant> > 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@V?$QHash@VQString@@VQVariant@@@@@QtPrivate@@SA?AV?$QHash@VQString@@VQVariant@@@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QList<QVariant> > 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@V?$QList@VQVariant@@@@@QtPrivate@@SA?AV?$QList@VQVariant@@@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtPrivate::MetaTypeDefinedHelper<QtMetaTypePrivate::QSequentialIterableImpl,1>::DefinedType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 1884,
+                  "startColumn": 1,
+                  "endLine": 1884,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$qRegisterMetaType@VQSequentialIterableImpl@QtMetaTypePrivate@@@@YAHPBDPAVQSequentialIterableImpl@QtMetaTypePrivate@@W4DefinedType@?$MetaTypeDefinedHelper@VQSequentialIterableImpl@QtMetaTypePrivate@@$00@QtPrivate@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtPrivate::MetaTypeDefinedHelper<QtMetaTypePrivate::QAssociativeIterableImpl,1>::DefinedType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 1884,
+                  "startColumn": 1,
+                  "endLine": 1884,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$qRegisterMetaType@VQAssociativeIterableImpl@QtMetaTypePrivate@@@@YAHPBDPAVQAssociativeIterableImpl@QtMetaTypePrivate@@W4DefinedType@?$MetaTypeDefinedHelper@VQAssociativeIterableImpl@QtMetaTypePrivate@@$00@QtPrivate@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtPrivate::MetaTypeDefinedHelper<QtMetaTypePrivate::QPairVariantInterfaceImpl,1>::DefinedType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 1884,
+                  "startColumn": 1,
+                  "endLine": 1884,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$qRegisterMetaType@VQPairVariantInterfaceImpl@QtMetaTypePrivate@@@@YAHPBDPAVQPairVariantInterfaceImpl@QtMetaTypePrivate@@W4DefinedType@?$MetaTypeDefinedHelper@VQPairVariantInterfaceImpl@QtMetaTypePrivate@@$00@QtPrivate@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtPrivate::MetaTypeDefinedHelper<QPair<QVariant,QVariant>,1>::DefinedType”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 1847,
+                  "startColumn": 1,
+                  "endLine": 1847,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$qRegisterNormalizedMetaType@U?$QPair@VQVariant@@V1@@@@@YAHABVQByteArray@@PAU?$QPair@VQVariant@@V1@@@W4DefinedType@?$MetaTypeDefinedHelper@U?$QPair@VQVariant@@V1@@@$00@QtPrivate@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QtMetaTypePrivate::QAssociativeIterableImpl> 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@VQAssociativeIterableImpl@QtMetaTypePrivate@@@QtPrivate@@SA?AVQAssociativeIterableImpl@QtMetaTypePrivate@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QtMetaTypePrivate::QSequentialIterableImpl> 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@VQSequentialIterableImpl@QtMetaTypePrivate@@@QtPrivate@@SA?AVQSequentialIterableImpl@QtMetaTypePrivate@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“QtMetaTypePrivate::QSequentialIterableImpl::Position”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 1142,
+                  "startColumn": 5,
+                  "endLine": 1142,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$moveToImpl@V?$QList@VQVariant@@@@@QSequentialIterableImpl@QtMetaTypePrivate@@SAXPBXPAPAXW4Position@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QtMetaTypePrivate::QPairVariantInterfaceImpl> 是 constexpr，如果需要编译时计算，请将变量 toId 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+                },
+                "region": {
+                  "startLine": 2413,
+                  "startColumn": 15,
+                  "endLine": 2413,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?registerConverter@?$IsMetaTypePair@U?$QPair@VQVariant@@V1@@@$00@QtPrivate@@SA_NH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "函数 qMetaTypeId<QtMetaTypePrivate::QPairVariantInterfaceImpl> 是 constexpr，如果需要编译时计算，请将变量 vid 标记为 constexpr (con.5)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+                },
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 23,
+                  "endLine": 742,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?metaType@?$QVariantValueHelper@VQPairVariantInterfaceImpl@QtMetaTypePrivate@@@QtPrivate@@SA?AVQPairVariantInterfaceImpl@QtMetaTypePrivate@@ABVQVariant@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30152.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0135D1C0 -il C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\_CL_42631cefast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930152 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I F:\\wechat\\QtGuiApplication1\\QtGuiApplication1\\Debug\\uic -I F:\\wechat\\QtGuiApplication1\\QtGuiApplication1\\Debug\\moc -I F:\\Qt\\5.15.2\\msvc2019\\include -I F:\\Qt\\5.15.2\\msvc2019\\include\\QtWidgets -I F:\\Qt\\5.15.2\\msvc2019\\include\\QtGui -I F:\\Qt\\5.15.2\\msvc2019\\include\\QtANGLE -I F:\\Qt\\5.15.2\\msvc2019\\include\\QtSql -I F:\\Qt\\5.15.2\\msvc2019\\include\\QtCore -I F:\\include -I F:\\Qt\\5.15.2\\msvc2019\\mkspecs\\win32-msvc -I F:\\wechat\\QtGuiApplication1\\QtGuiApplication1\\Debug\\moc -I F:\\wechat\\QtGuiApplication1\\QtGuiApplication1\\Debug\\uic -nologo -W 1 -diagnostics:column -Ot -DCODE_ANALYSIS -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_CORE_LIB -EHs -D_CPPUNWIND -EHc -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoDebug\\main.obj -FdDebug\\vc142.pdb -external:W 1 -Gd -analyze:projectdirectory F:\\wechat\\QtGuiApplication1\\QtGuiApplication1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qglobal.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a695194c2b66ef5cd9fe91cddf419e62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qsysinfo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0863c4c301080d219223a68fa42168fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qnamespace.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a26bd1160cfaa3547f0450917ba7b501"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qchar.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "52e652a582b9c6eff2babe78fea6afac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qarraydata.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a48b86734f257e246bc24017aa1c294b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qbytearray.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a4717d0d33732ad9253a3232fdad6c5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qstring.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "175d4e01f8875534c1f7dc132e856188"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmetatype.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "59b7eaa0c9aa4ee5ce399ecaa03b5d88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qcolor.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ba56d019e279a604db630b20d51c3478"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qiodevice.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0baebdac5526eda5ccc387ff11c7f7dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qdatastream.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "12d64ae2f6b3f82cdeb4fe8f5cc67164"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qmatrix.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "11924a2020945acfdac09786d79e7c71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qtransform.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3eba1c3220312159cd07bb7552ba6564"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpixelformat.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8cbb3149937ed28495671dbfd43ba141"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qimage.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "762f6432221f97d0af3b2dc19c46fb75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qsharedpointer_impl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "955cadfd1efeefd9d510345b8e6e578c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qbrush.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "cb6cf2b8197662fe859b33c82372b0b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qpalette.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "bd96cdfab477238355bae8596fe783e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qfont.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "87bd8c4be76400f181d2abca1ad36e7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qsizepolicy.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "78dc60533c029c657b2ce337ebdc6173"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qkeysequence.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3a2eedc76fa072f7a8e5baa0c22e0bf6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qwidget.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5da22901db242eb0ec5a1fbc43c61ff1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qmap.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fdf7ef9e8829d6bbcefefe89df2478a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qcoreevent.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "40438f301cb9bc46b1ce1cdfb65292c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qeventloop.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "e516921da526e0c160bf5d0736f3459d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qinputmethod.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9bc6d22ca38d8938c64a9dc45adb0687"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qlocale.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8af0867bffe110b99fdcee07ac23609d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtGui/qicon.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "80b3fa038760841fe0f112c661fdf150"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qtabwidget.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "59c1542c5e6b6598ab48be76f3578565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qmainwindow.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3ecc412dc20a4edbbd96ed276820bd76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qaction.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c95f87edf0eea1de7db4c8cac452bfb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qlayout.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ec1721c3a2112b0b58b5a5e89d3a8019"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtWidgets/qframe.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "e86fefd425724f17239ee94eaca6c14b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qtextstream.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fd1ab21fc80d8ce5e1d5770f9ddc25bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qdebug.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "15dda264129acfb47bd05c7d86a139f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///F:/Qt/5.15.2/msvc2019/include/QtCore/qvariant.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "90094f0c4dc27575920a2cab608c0d10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b8ad8d3371a75a996ad88f973a775a30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/qtguiapplication1.h"
+          },
+          "hashes": {
+            "md5": "cfd2d8fd5f73409cf54ba468137b8e8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qwidget"
+          },
+          "hashes": {
+            "md5": "9df0e5934a87cec900f46aa707b34486"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qtwidgetsglobal.h"
+          },
+          "hashes": {
+            "md5": "17b764122c97af9d72dbf92785ba3c20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qtguiglobal.h"
+          },
+          "hashes": {
+            "md5": "02e414b6a8ba840824d465f8d284d392"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qconfig.h"
+          },
+          "hashes": {
+            "md5": "8b66f8990cda75ad4be5e963c87904ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qtcore-config.h"
+          },
+          "hashes": {
+            "md5": "ea34ba71581e00c3c99f5fec6f3412e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qsystemdetection.h"
+          },
+          "hashes": {
+            "md5": "c773499524b7051fce3e570704785130"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qprocessordetection.h"
+          },
+          "hashes": {
+            "md5": "1afd605bc49ef7dd3a7b7cbd7d7147fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qcompilerdetection.h"
+          },
+          "hashes": {
+            "md5": "234158604994f475a91353739a2bbb57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qtypeinfo.h"
+          },
+          "hashes": {
+            "md5": "544c1db41a9d1116cc6fd68c21863065"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qlogging.h"
+          },
+          "hashes": {
+            "md5": "4bd7d3a360fc344c4d30b165d9ea6c4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qflags.h"
+          },
+          "hashes": {
+            "md5": "433d43cd605cafdf937756bd8585fb9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qatomic.h"
+          },
+          "hashes": {
+            "md5": "7652d1c9a27d68caad63b36d71df383c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qbasicatomic.h"
+          },
+          "hashes": {
+            "md5": "b1f76f6c63fc330416b69e69f5491662"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qatomic_cxx11.h"
+          },
+          "hashes": {
+            "md5": "4b03464a5dc41becd5f0c39a30410301"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qgenericatomic.h"
+          },
+          "hashes": {
+            "md5": "c581d79d8539574e76a4e0c830c2df88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qglobalstatic.h"
+          },
+          "hashes": {
+            "md5": "f2ede6a509bc3f8055425f5b16907221"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qnumeric.h"
+          },
+          "hashes": {
+            "md5": "2819b50dc7d5bf11774fc85627b5faf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qversiontagging.h"
+          },
+          "hashes": {
+            "md5": "d134ef4ab1bd2dd548c0b8e2a5550839"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qtgui-config.h"
+          },
+          "hashes": {
+            "md5": "57a95d8fb402f3fd72dd3a837c5d4643"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qtwidgets-config.h"
+          },
+          "hashes": {
+            "md5": "7e51aa6c5174100372bbd72522cece2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qwindowdefs.h"
+          },
+          "hashes": {
+            "md5": "3bf6a16c83d350e3801f63423bc019f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qobjectdefs.h"
+          },
+          "hashes": {
+            "md5": "642871dc67bc301fbd142a896f1a5f5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qobjectdefs_impl.h"
+          },
+          "hashes": {
+            "md5": "d5851450a8d60d29366d4160ce2a1f08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qwindowdefs_win.h"
+          },
+          "hashes": {
+            "md5": "06eedfbb2f5b39b0e15296fcafb9c8cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qobject.h"
+          },
+          "hashes": {
+            "md5": "1d726fe6f5c370bd75e4092bb71c7557"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qrefcount.h"
+          },
+          "hashes": {
+            "md5": "04e4e8595636f0cc299f1a1ec3cf85c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qstringliteral.h"
+          },
+          "hashes": {
+            "md5": "de00809289478e56551791fb30b7f8f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qstringalgorithms.h"
+          },
+          "hashes": {
+            "md5": "56f5b75b4a8342385dabffa98f6b4d35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qstringview.h"
+          },
+          "hashes": {
+            "md5": "15edde7c489403cdefffb0c9b09bb325"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qlist.h"
+          },
+          "hashes": {
+            "md5": "46a219b9ba07d4404c3ced429c457adf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qalgorithms.h"
+          },
+          "hashes": {
+            "md5": "44ddb08eada33e2ba51d8f3e3391b4b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qiterator.h"
+          },
+          "hashes": {
+            "md5": "46a42f8e569d2eda302d0f791775d5b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qhashfunctions.h"
+          },
+          "hashes": {
+            "md5": "89c5046c5565b9f65fc2fe8dc3c659fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qpair.h"
+          },
+          "hashes": {
+            "md5": "4c1f0cc4f90726aa14557722ef79c77d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qvector.h"
+          },
+          "hashes": {
+            "md5": "05c39dc95aecc9ac95fb81046f2a45a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qcontainertools_impl.h"
+          },
+          "hashes": {
+            "md5": "a159540e0cc276df518f8876634b9fda"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qpoint.h"
+          },
+          "hashes": {
+            "md5": "7043b16ffb50f9e6ec3f40618c4cd65f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qbytearraylist.h"
+          },
+          "hashes": {
+            "md5": "c3cdb7cccdf1bd4c4f4fa1abf75d7e45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qstringlist.h"
+          },
+          "hashes": {
+            "md5": "3a26ea6d69d1d990372ed05955152847"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qregexp.h"
+          },
+          "hashes": {
+            "md5": "3fd3ed451790f3b5a26f5513759d5660"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qstringmatcher.h"
+          },
+          "hashes": {
+            "md5": "b7533e3445ffa7166b6ee0df5668c6f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qscopedpointer.h"
+          },
+          "hashes": {
+            "md5": "a0f0a11416ab17cb8f12a9dd0ab263ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qvarlengtharray.h"
+          },
+          "hashes": {
+            "md5": "f195f485a345ea82512db5b40ad75ae0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qcontainerfwd.h"
+          },
+          "hashes": {
+            "md5": "a15276a66414798288f6e33993f14a4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qobject_impl.h"
+          },
+          "hashes": {
+            "md5": "89c7c9914e0e57d87f41b00df9aa37b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qmargins.h"
+          },
+          "hashes": {
+            "md5": "35c8316e565a409c4f9a9250ec48a3ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qpaintdevice.h"
+          },
+          "hashes": {
+            "md5": "a6a8fab050d02814bd0c0a3b944512af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qrect.h"
+          },
+          "hashes": {
+            "md5": "40d995d83fb169d81ab6fa91f2fd52d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qsize.h"
+          },
+          "hashes": {
+            "md5": "39aec0afdd57dbf7c97247dfe185aa85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qrgb.h"
+          },
+          "hashes": {
+            "md5": "0b2787457c5709c1beb99e23136a20c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qrgba64.h"
+          },
+          "hashes": {
+            "md5": "bc182f638c8052033d3aa2e6c69c689a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qpolygon.h"
+          },
+          "hashes": {
+            "md5": "28502eaaaf7026389f67d4fb952c4c0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qregion.h"
+          },
+          "hashes": {
+            "md5": "054e7371fcec2f7ae2e246b0f951c49d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qline.h"
+          },
+          "hashes": {
+            "md5": "690b903bf9e1c7fc52a37da3d6a4fca7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qpixmap.h"
+          },
+          "hashes": {
+            "md5": "2af6ed4973a62d50fbf8116db4751da4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qsharedpointer.h"
+          },
+          "hashes": {
+            "md5": "c4ffe432a0e37fdd5ad7122fc73c04dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qshareddata.h"
+          },
+          "hashes": {
+            "md5": "de9782832f172e77c5131c2e21fae76e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qhash.h"
+          },
+          "hashes": {
+            "md5": "96cb1b909b8ba097373e197dbbd8fdca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qfontmetrics.h"
+          },
+          "hashes": {
+            "md5": "c66b4209fed6bc8d8a0b6a09ad0fb719"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qfontinfo.h"
+          },
+          "hashes": {
+            "md5": "d509220030573f8a325347ab521db9c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qcursor.h"
+          },
+          "hashes": {
+            "md5": "1e4b816d8817a1e791a04372fd0bd3b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/debug/uic/ui_qtguiapplication1.h"
+          },
+          "hashes": {
+            "md5": "48ce94c26bf347436c0c34f73751d18b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qvariant"
+          },
+          "hashes": {
+            "md5": "2e14996cbd7d1147aaddc3f909894bff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qapplication"
+          },
+          "hashes": {
+            "md5": "fff65146b860728e367f1e8b0203b892"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qapplication.h"
+          },
+          "hashes": {
+            "md5": "e890a0700325eb0389fedeb77ee59b79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qcoreapplication.h"
+          },
+          "hashes": {
+            "md5": "0d6090fada08ce1a4ed3639d638497be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtgui/qguiapplication.h"
+          },
+          "hashes": {
+            "md5": "c79130faa7f5bd8aec43e962d9b0bba2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/qtguiclass.h"
+          },
+          "hashes": {
+            "md5": "b1749263c27481ac62d1c59063acbe20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qmainwindow"
+          },
+          "hashes": {
+            "md5": "c68e64d45f967dd678ef29e86cb9648d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/debug/uic/ui_qtguiclass.h"
+          },
+          "hashes": {
+            "md5": "f24cb4b239ee80c228e0d4833d211a17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qmenubar"
+          },
+          "hashes": {
+            "md5": "573173d9e4e8233f11a2482e7eea3af3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qmenubar.h"
+          },
+          "hashes": {
+            "md5": "dcb147c136d931abe6dfeaa11616f7b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qmenu.h"
+          },
+          "hashes": {
+            "md5": "f9a2a1bd31e602b69a31d6df004105ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qactiongroup.h"
+          },
+          "hashes": {
+            "md5": "1628942f79c64d4e470528dbf8ab3e26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qstatusbar"
+          },
+          "hashes": {
+            "md5": "5e02d756dce4631944e3d482b675c780"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qstatusbar.h"
+          },
+          "hashes": {
+            "md5": "7e30175f0a3f78e88ad22b56b0674afb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qtoolbar"
+          },
+          "hashes": {
+            "md5": "43c21f67dbd0b1e00352ff6b7190c9e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qtoolbar.h"
+          },
+          "hashes": {
+            "md5": "4b28be2dc8f798d276f675fd90dfc4e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/qtguiclassmm.h"
+          },
+          "hashes": {
+            "md5": "ecd2549eb31ed6015f49dc8206e2167b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/wechat/qtguiapplication1/qtguiapplication1/debug/uic/ui_qtguiclassmm.h"
+          },
+          "hashes": {
+            "md5": "c2e6015ac082a61e51d426b3af502696"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qhboxlayout"
+          },
+          "hashes": {
+            "md5": "27f875c11355135d3060bbbec5cb1b85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qboxlayout.h"
+          },
+          "hashes": {
+            "md5": "80dc8b97341fa2d21cad0e1fa3dbd6e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qlayoutitem.h"
+          },
+          "hashes": {
+            "md5": "b8ae03974faa7c6d2185687c0061cd5a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qgridlayout.h"
+          },
+          "hashes": {
+            "md5": "d0302acb4f9d1742954719d774d30848"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qlabel"
+          },
+          "hashes": {
+            "md5": "aa241255b107fc42d4a1e8e8d993c8c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qlabel.h"
+          },
+          "hashes": {
+            "md5": "7a3a77762759a201ae3577d327a451a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qpushbutton"
+          },
+          "hashes": {
+            "md5": "d19972c22d3a787aca9128dd75c1d863"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qpushbutton.h"
+          },
+          "hashes": {
+            "md5": "94a70556697f18ae0403f60c27d30708"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtwidgets/qabstractbutton.h"
+          },
+          "hashes": {
+            "md5": "bb46a115ab81736152b90d2562f54ac4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qdebug"
+          },
+          "hashes": {
+            "md5": "0c81b97088327333c4144bedc1e090a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qset.h"
+          },
+          "hashes": {
+            "md5": "1c559a2188428e072f63cc9c72ad97e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/qt/5.15.2/msvc2019/include/qtcore/qcontiguouscache.h"
+          },
+          "hashes": {
+            "md5": "6f37b1522074fcee9ebe50c1010ccdb5"
+          }
+        }
+      ]
+    }
+  ]
+}
